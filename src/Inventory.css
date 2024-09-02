@@ -1,0 +1,74 @@
+/* Container */
+.inventory-form-container {
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .inventory-form-container h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  /* Form */
+  .inventory-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+  }
+  
+  .inventory-form input[type='text'],
+  .inventory-form input[type='number'],
+  .inventory-form input[type='date'],
+  .inventory-form input[type='file'] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .inventory-form input[type='file'] {
+    padding: 5px;
+  }
+  
+  /* Image Preview */
+  .image-preview {
+    margin-top: 15px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Button */
+  .submit-button {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color:#007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .inventory-form input[type='text']:focus,
+  .inventory-form input[type='number']:focus,
+  .inventory-form input[type='date']:focus,
+  .inventory-form input[type='file']:focus {
+    border-color: #2980b9;
+    outline: none;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
+  }
+  
